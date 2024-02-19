@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: "Nanum Gothic", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";    
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image:url(main.jpg) ;
+    background-repeat: no-repeat;
+    background-size:  cover;
+}
+.nav{
+    width: 100%;
+    height: 16%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-left:  2%;
+}
+.pages{
+    margin-left:  20%;
+    width: 40%;
+    height: 30%;
+    float: right;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.4vw;
+    padding: .5vw;
+    border-radius: .8vh;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: .2vh;
+    font-weight: 100;
+}
+a:hover{
+    border-bottom: .2vw solid rgb(0, 88, 117);
+}
+.info{
+    width: 30vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-left: 5vw;
+    margin-top: 2.5vw;
+    flex-direction: column;
+    background-image: linear-gradient(to right, rgba(52, 105, 123, 0.503) , rgba(0, 0, 255, 0));
+    padding: 2vw;
+    border-radius: 1vw;
+}
+#d1{
+    font-weight: bold;
+    font-size: 1.7vw;
+}
+#d2 h4{
+    font-weight: 100;
+    font-size: 1.5vw;
+}
+#d3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bt{
+    width: 5vw;
+    height: 5vh;
+    background-color: rgb(0, 88, 117);
+    border-radius: .3vw;
+    cursor: pointer;
+    padding: 0.2vw;
+    color: white;
+    border: none;
+    font-size: .8vw;
+}
+.bt:hover{
+    background-color: white;
+    color: rgb(0, 88, 117);
+    border: 2px solid rgb(0, 88, 117);
+}
+.info2{
+    width: 30vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-right: 5vw;
+    margin-top: 2.5vw;
+    flex-direction: column;
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0),rgba(52, 105, 123, 0.503));
+    padding: 2vw;
+    border-radius: 1vw;
+}
+.main2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#home{
+    font-weight: bold;
+    color: rgb(0, 88, 117);
+    border-bottom: .2vw solid rgb(0, 88, 117);
+}
